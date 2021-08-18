@@ -1,6 +1,0 @@
-baseURL = 'http://blog.thiago.info/quickstart'
-relativeURLs = true
-canonifyURLs = true
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "ananke"
