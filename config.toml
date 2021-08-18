@@ -1,4 +1,0 @@
-baseURL = 'http://blog.thiago.info/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "ananke"
