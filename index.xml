@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terminal</title><link>/</link><description>Recent content on Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>/about/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/about/</guid><description/><content/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terminal</title><link>/</link><description>Recent content on Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>impressao3d</title><link>/impressao3d/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/impressao3d/</guid><description>thingiverse</description><content>&lt;h2 id="thingiverse">thingiverse&lt;/h2></content></item><item><title>meliponicultura</title><link>/meliponicultura/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/meliponicultura/</guid><description/><content/></item><item><title>sobre</title><link>/sobre/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/sobre/</guid><description>Saudações Este é um blog pessoal, onde pretendo postar algumas coisas de tecnologia, de plantas, de abelhas e tudo mais&amp;hellip;
+Quem sou eu? Trabalho com SRE/DevOps, gosto muito do universo opensource então gosto muito de linux, RaspberryPI, terminal. Eu sei, é bem cliche :/.
+Sobre meus hobbies, gosto muito de impressão 3d. Atualmente tenho uma ender3 v1 bem modificada, vou postar sobre aqui.
+Um outro hobbie que tenho é ser um beekeeper, mais especificamente meliponicultor, mas não faço extração de mel ou qualquer coisa do tipo, sou um simples cuidador de Mandaçaia e Plebeia.</description><content>&lt;h2 id="saudações">Saudações&lt;/h2>
+&lt;p>Este é um blog pessoal, onde pretendo postar algumas coisas de
+tecnologia, de plantas, de abelhas e tudo mais&amp;hellip;&lt;/p>
+&lt;h2 id="quem-sou-eu">Quem sou eu?&lt;/h2>
+&lt;p>Trabalho com SRE/DevOps, gosto muito do universo opensource
+então gosto muito de linux, RaspberryPI,
+terminal. Eu sei, é bem cliche :/.&lt;/p>
+&lt;p>Sobre meus hobbies, gosto muito de impressão 3d.
+Atualmente tenho uma ender3 v1 bem modificada,
+vou postar sobre &lt;a href="/impressao3d">aqui&lt;/a>.&lt;/p>
+&lt;p>Um outro hobbie que tenho é ser um beekeeper,
+mais especificamente &lt;a href="https://pt.wikipedia.org/wiki/Meliponicultura">meliponicultor&lt;/a>,
+mas não faço extração de mel ou qualquer coisa do tipo, sou um simples cuidador de
+&lt;a href="https://pt.wikipedia.org/wiki/Melipona_quadrifasciata">Mandaçaia&lt;/a> e &lt;a href="https://pt.wikipedia.org/wiki/Plebeia_droryana">Plebeia&lt;/a>.&lt;/p>
+&lt;h2 id="alguns-links">Alguns links&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/thiago-scherrer">github&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/in/thiago-scherrer/">linkedin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.thingiverse.com/sofdg3/designs">thingiverse&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Tec</title><link>/tec/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/tec/</guid><description/><content>&lt;h2 id="heading">&lt;/h2></content></item></channel></rss>
