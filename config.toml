@@ -9,10 +9,10 @@ paginate = 5
   contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  themeColor = "red"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 10
 
   # show selector to switch language
   showLanguageSelector = false
@@ -65,6 +65,18 @@ paginate = 5
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+        identifier = "tec"
+        name = "tec"
+        url = "/tec"
+      [[languages.en.menu.main]]
+        identifier = "impressao3d"
+        name = "impressao3d"
+        url = "/impressao3d"
+      [[languages.en.menu.main]]
+        identifier = "sobre"
+        name = "sobre"
+        url = "/sobre"
+      [[languages.en.menu.main]]
+        identifier = "meliponicultura"
+        name = "meliponicultura"
+        url = "/meliponicultura"
