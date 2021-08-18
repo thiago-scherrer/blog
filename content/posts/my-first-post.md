@@ -1,11 +1,5 @@
-+++
-title = "My First Post"
-date = "2021-08-18T12:31:08-03:00"
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
-showFullContent = false
-+++
+---
+title: "My First Post"
+date: 2019-03-26T08:47:11+01:00
+draft: false
+---
