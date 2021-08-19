@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>42</title><link>/</link><description>Recent content on 42</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Aug 2021 15:24:41 -0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Queda_de_energia</title><link>/posts/queda_de_energia/</link><pubDate>Thu, 19 Aug 2021 15:24:41 -0300</pubDate><guid>/posts/queda_de_energia/</guid><description>Impressão 3d e a falta de energia Mesmo morando na capital de São Paulo, as quedas de energia por aqui são constante, isso muito antes de estourar a crise hídrica (2021 aqui).
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>42</title><link>/</link><description>Recent content on 42</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Aug 2021 16:53:55 -0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Cuidado_com_iot</title><link>/posts/cuidado_com_iot/</link><pubDate>Thu, 19 Aug 2021 16:53:55 -0300</pubDate><guid>/posts/cuidado_com_iot/</guid><description>impressora 3d hackeada? Estava navegando pelo reddit hoje e vi este post bizarro aqui.
+Resumindo bem o post, o OP acordou de manha e percebeu que sua impressora 3d tinha imprimido isto aqui:
+TSD is not secure I randomly connected sorry had to inform u Traduzindo:
+TSD não é seguro Eu conectei aleatoriamente desculpe tive que informar u Vou partir do princípio que o post é verdade. Este TSD provavelmente é um plugin muito usado pela comunidade chamado thespaghettidetective.</description><content>&lt;h2 id="impressora-3d-hackeada">impressora 3d hackeada?&lt;/h2>
+&lt;p>Estava navegando pelo reddit hoje e vi &lt;a href="https://www.reddit.com/r/3Dprinting/comments/p7jdhi/wake_up_this_morning_and_see_this_on_my_3d/">este post bizarro aqui&lt;/a>.&lt;/p>
+&lt;p>Resumindo bem o post, o OP acordou de manha e percebeu que sua impressora 3d
+tinha imprimido isto aqui:&lt;/p>
+&lt;pre>&lt;code>TSD is not secure I randomly connected sorry had to inform u
+&lt;/code>&lt;/pre>&lt;p>Traduzindo:&lt;/p>
+&lt;pre>&lt;code>TSD não é seguro Eu conectei aleatoriamente desculpe tive que informar u
+&lt;/code>&lt;/pre>&lt;p>Vou partir do princípio que o post é verdade. Este TSD provavelmente é um plugin
+muito usado pela comunidade chamado &lt;a href="https://www.thespaghettidetective.com/">thespaghettidetective&lt;/a>.
+Basicamente é um software que é conectado em uma camera/celular, pode ser
+utilizado em conjunto com o OctoPrint e com a ajuda de IA + IoT + Nuvem, o
+programa pode cancelar, avisar, etc, quando sua impressão der ruim, o famoso
+espaguete.&lt;/p>
+&lt;h2 id="o-que-é-bizarro">O que é bizarro&lt;/h2>
+&lt;p>Já é bem conhecido coisas como o &lt;a href="https://www.shodan.io/">shodan&lt;/a>, mas nunca
+tinha visto um ataque voltado a impressão 3d.&lt;/p>
+&lt;p>Num primeiro momento o que podemos pensar é, &amp;ldquo;se minha impressora for invadida,
+vou perder uma grana com filamento&amp;rdquo; ou &amp;ldquo;posso acordar com um monte de coisas
+bizarras impressas&amp;rdquo;. Mas a coisa pode ficar feia.&lt;/p>
+&lt;p>Sabemos que é possível controlar qualquer coisa da impressora via console,
+GCODE, etc. Então ativando o modo paranoico aqui, é possível fazer sua
+impressora literalmente pegar fogo e com isso, quem sabe, uma casa.&lt;/p>
+&lt;p>Imagine forçar o &lt;code>extruter&lt;/code> ativar o aquecimento para algo em 240C e então
+desligar todas as ventilações, por sei lá, HORAS? Caótico!&lt;/p>
+&lt;h2 id="oq-fazer-então">Oq fazer então?&lt;/h2>
+&lt;p>Eu prefiro evitar qualquer coisa com IoT + Nuvem por hora ou que sabe pra
+sempre.&lt;/p></content></item><item><title>Queda_de_energia</title><link>/posts/queda_de_energia/</link><pubDate>Thu, 19 Aug 2021 15:24:41 -0300</pubDate><guid>/posts/queda_de_energia/</guid><description>Impressão 3d e a falta de energia Mesmo morando na capital de São Paulo, as quedas de energia por aqui são constante, isso muito antes de estourar a crise hídrica (2021 aqui).
 Perdi muitas impressões e a primeira coisa que pensei em comprar foi um nobreak. Fiz uma lista de modelos e os mais recomendados para impressoras 3d em minhas pesquisas são modelos senoidal puro.
 O preço me assustou, modelos SMS saem por uns R$1200,00 e então desisti por hora e tentei usar a função POWER_LOSS_RECOVERY no Marlin 2.</description><content>&lt;h2 id="impressão-3d-e-a-falta-de-energia">Impressão 3d e a falta de energia&lt;/h2>
 &lt;p>Mesmo morando na capital de São Paulo, as quedas de energia por aqui são
@@ -44,19 +73,19 @@ SDCard, ou seja, é bem possível que a vida dele acabe antes do que você imagi
 &lt;h2 id="conclusão">Conclusão&lt;/h2>
 &lt;p>Se as quedas de energia forem muuuito comuns por ai e você puder comprar um
 nobreak, é sucesso.&lt;/p>
-&lt;p>Mas vale a pena tentar um pouco mais com o &lt;code>POWER_LOSS_RECOVERY&lt;/code>.&lt;/p></content></item><item><title>impressao3d</title><link>/impressao3d/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/impressao3d/</guid><description>thingiverse queda_de_energia</description><content>&lt;h2 id="thingiverse">thingiverse&lt;/h2>
+&lt;p>Mas vale a pena tentar um pouco mais com o &lt;code>POWER_LOSS_RECOVERY&lt;/code>.&lt;/p></content></item><item><title>impressao3d</title><link>/impressao3d/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/impressao3d/</guid><description>thingiverse cuidado_com_iot queda_de_energia</description><content>&lt;h2 id="thingiverse">thingiverse&lt;/h2>
 &lt;ul>
+&lt;li>&lt;a href="/posts/cuidado_com_iot/">cuidado_com_iot&lt;/a>&lt;/li>
 &lt;li>&lt;a href="/posts/queda_de_energia/">queda_de_energia&lt;/a>&lt;/li>
 &lt;/ul></content></item><item><title>meliponicultura</title><link>/meliponicultura/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/meliponicultura/</guid><description/><content/></item><item><title>sobre</title><link>/sobre/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/sobre/</guid><description>Saudações Este é um blog pessoal, onde pretendo postar algumas coisas de tecnologia, de plantas, de abelhas e tudo mais&amp;hellip;
-Quem sou eu? Trabalho com SRE/DevOps, gosto muito do universo opensource então gosto muito de linux, RaspberryPI, terminal. Eu sei, é bem cliche :/.
+Quem sou eu? Trabalho com SRE/DevOps, e o universo opensource é bem importante para mim então muito de linux, RaspberryPI, terminal. Eu sei, é bem cliche :/.
 Sobre meus hobbies, gosto muito de impressão 3d. Atualmente tenho uma ender3 v1 bem modificada, vou postar sobre aqui.
 Um outro hobbie que tenho é ser um beekeeper, mais especificamente meliponicultor, mas não faço extração de mel ou qualquer coisa do tipo, sou um simples cuidador de Mandaçaia e Plebeia.</description><content>&lt;h2 id="saudações">Saudações&lt;/h2>
 &lt;p>Este é um blog pessoal, onde pretendo postar algumas coisas de
 tecnologia, de plantas, de abelhas e tudo mais&amp;hellip;&lt;/p>
 &lt;h2 id="quem-sou-eu">Quem sou eu?&lt;/h2>
-&lt;p>Trabalho com SRE/DevOps, gosto muito do universo opensource
-então gosto muito de linux, RaspberryPI,
-terminal. Eu sei, é bem cliche :/.&lt;/p>
+&lt;p>Trabalho com SRE/DevOps, e o universo opensource é bem importante para mim
+então muito de linux, RaspberryPI, terminal. Eu sei, é bem cliche :/.&lt;/p>
 &lt;p>Sobre meus hobbies, gosto muito de impressão 3d.
 Atualmente tenho uma ender3 v1 bem modificada,
 vou postar sobre &lt;a href="/impressao3d">aqui&lt;/a>.&lt;/p>
