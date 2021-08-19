@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>42</title><link>/</link><description>Recent content on 42</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Aug 2021 16:53:55 -0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Cuidado_com_iot</title><link>/posts/cuidado_com_iot/</link><pubDate>Thu, 19 Aug 2021 16:53:55 -0300</pubDate><guid>/posts/cuidado_com_iot/</guid><description>impressora 3d hackeada? Estava navegando pelo reddit hoje e vi este post bizarro aqui.
 Resumindo bem o post, o OP acordou de manha e percebeu que sua impressora 3d tinha imprimido isto aqui:
 TSD is not secure I randomly connected sorry had to inform u Traduzindo:
-TSD não é seguro Eu conectei aleatoriamente desculpe tive que informar u Vou partir do princípio que o post é verdade. Este TSD provavelmente é um plugin muito usado pela comunidade chamado thespaghettidetective.</description><content>&lt;h2 id="impressora-3d-hackeada">impressora 3d hackeada?&lt;/h2>
+TSD não é seguro Eu conectei aleatoriamente desculpe tive que informar você Vou partir do princípio que o post é verdade. Este TSD provavelmente é um plugin muito usado pela comunidade chamado thespaghettidetective.</description><content>&lt;h2 id="impressora-3d-hackeada">impressora 3d hackeada?&lt;/h2>
 &lt;p>Estava navegando pelo reddit hoje e vi &lt;a href="https://www.reddit.com/r/3Dprinting/comments/p7jdhi/wake_up_this_morning_and_see_this_on_my_3d/">este post bizarro aqui&lt;/a>.&lt;/p>
 &lt;p>Resumindo bem o post, o OP acordou de manha e percebeu que sua impressora 3d
 tinha imprimido isto aqui:&lt;/p>
 &lt;pre>&lt;code>TSD is not secure I randomly connected sorry had to inform u
 &lt;/code>&lt;/pre>&lt;p>Traduzindo:&lt;/p>
-&lt;pre>&lt;code>TSD não é seguro Eu conectei aleatoriamente desculpe tive que informar u
+&lt;pre>&lt;code>TSD não é seguro Eu conectei aleatoriamente desculpe tive que informar você
 &lt;/code>&lt;/pre>&lt;p>Vou partir do princípio que o post é verdade. Este TSD provavelmente é um plugin
 muito usado pela comunidade chamado &lt;a href="https://www.thespaghettidetective.com/">thespaghettidetective&lt;/a>.
 Basicamente é um software que é conectado em uma camera/celular, pode ser
