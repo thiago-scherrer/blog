@@ -7,3 +7,4 @@ draft: false
 
 ## thingiverse
 
+- [queda_de_energia](/posts/queda_de_energia/)
