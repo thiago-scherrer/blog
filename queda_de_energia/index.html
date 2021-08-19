@@ -1,0 +1,136 @@
+<!doctype html><html lang=en>
+<head>
+<title>Queda_de_energia :: 42</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="..---.. / \ | | : ; \ \~/ / `, Y ,' |_|_| |===| |===| \_/ Impressão 3d e a falta de energia Mesmo morando na capital de São Paulo, as quedas de energia por aqui são constante, isso muito antes de estourar a crise hídrica (2021 aqui).
+Perdi muitas impressões e a primeira coisa que pensei em compra, foi um nobreak. Fiz uma lista de modelos recomendados, e os mais recomendados para impressoras 3d em minhas pesquisas, são os modelos senoidal puro.">
+<meta name=keywords content>
+<meta name=robots content="noodp">
+<link rel=canonical href=/queda_de_energia/>
+<link rel=stylesheet href=/assets/style.css>
+<link rel=stylesheet href=/assets/red.css>
+<link rel=apple-touch-icon href=/img/apple-touch-icon-192x192.png>
+<link rel="shortcut icon" href=/img/favicon/red.png>
+<meta name=twitter:card content="summary">
+<meta name=twitter:site content>
+<meta name=twitter:creator content>
+<meta property="og:locale" content="en">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Queda_de_energia">
+<meta property="og:description" content="..---.. / \ | | : ; \ \~/ / `, Y ,' |_|_| |===| |===| \_/ Impressão 3d e a falta de energia Mesmo morando na capital de São Paulo, as quedas de energia por aqui são constante, isso muito antes de estourar a crise hídrica (2021 aqui).
+Perdi muitas impressões e a primeira coisa que pensei em compra, foi um nobreak. Fiz uma lista de modelos recomendados, e os mais recomendados para impressoras 3d em minhas pesquisas, são os modelos senoidal puro.">
+<meta property="og:url" content="/queda_de_energia/">
+<meta property="og:site_name" content="42">
+<meta property="og:image" content="/img/favicon/red.png">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+<meta property="article:published_time" content="2021-08-19 15:24:41 -0300 -0300">
+</head>
+<body class=red>
+<div class="container headings--one-size">
+<header class=header>
+<div class=header__inner>
+<div class=header__logo>
+<a href=/>
+<div class=logo>
+Terminal
+</div>
+</a>
+</div>
+<div class=menu-trigger>menu</div>
+</div>
+<nav class=menu>
+<ul class="menu__inner menu__inner--desktop">
+<li><a href=/impressao3d>impressao3d</a></li>
+<li><a href=/meliponicultura>meliponicultura</a></li>
+<li><a href=/sobre>sobre</a></li>
+<li><a href=/tec>tec</a></li>
+</ul>
+<ul class="menu__inner menu__inner--mobile">
+<li><a href=/impressao3d>impressao3d</a></li>
+<li><a href=/meliponicultura>meliponicultura</a></li>
+<li><a href=/sobre>sobre</a></li>
+<li><a href=/tec>tec</a></li>
+</ul>
+</nav>
+</header>
+<div class=content>
+<div class=post>
+<h1 class=post-title>
+<a href=/queda_de_energia/>Queda_de_energia</a></h1>
+<div class=post-meta>
+<span class=post-date>
+2021-08-19 [Updated: 2021-08-19]
+</span>
+</div>
+<div class=post-content><div>
+<pre><code class=language-img data-lang=img>  ..---..
+ /       \
+|         |
+:         ;
+ \  \~/  /
+  `, Y ,'
+   |_|_|
+   |===|
+   |===|
+    \_/
+</code></pre><h2 id=impressão-3d-e-a-falta-de-energia>Impressão 3d e a falta de energia<a href=#impressão-3d-e-a-falta-de-energia class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<p>Mesmo morando na capital de São Paulo, as quedas de energia por aqui são
+constante, isso muito antes de estourar a crise hídrica (2021 aqui).</p>
+<p>Perdi muitas impressões e a primeira coisa que pensei em compra, foi um nobreak.
+Fiz uma lista de modelos recomendados, e os mais recomendados para impressoras
+3d em minhas pesquisas, são os modelos senoidal puro.</p>
+<p>O preço me assustou, modelos SMS saem por uns R$1200,00 e então desisti por hora
+e tentei usar a função <code>POWER_LOSS_RECOVERY</code> no Marlin <code>2.0.x</code>.</p>
+<h2 id=configuration_advh>Configuration_adv.h<a href=#configuration_advh class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<p>O código que usei na minha ender3 v1 com um SKR Mini v2.0 + bltouch, foi esse
+aqui:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c data-lang=c>  <span style=color:#75715e>#define POWER_LOSS_RECOVERY
+</span><span style=color:#75715e></span>  <span style=color:#75715e>#if ENABLED(POWER_LOSS_RECOVERY)
+</span><span style=color:#75715e></span>  <span style=color:#75715e>#define PLR_ENABLED_DEFAULT   true  </span><span style=color:#75715e>// Power Loss Recovery enabled by default. (Set with &#39;M413 Sn&#39; &amp; M500)
+</span><span style=color:#75715e></span>  <span style=color:#75715e>//#define BACKUP_POWER_SUPPLY       // Backup power / UPS to move the steppers on power loss
+</span><span style=color:#75715e></span>  <span style=color:#75715e>#define POWER_LOSS_ZRAISE       2 </span><span style=color:#75715e>// (mm) Z axis raise on resume (on power loss with UPS)
+</span><span style=color:#75715e></span>  <span style=color:#75715e>#define POWER_LOSS_PIN         -1 </span><span style=color:#75715e>// Pin to detect power loss. Set to -1 to disable default pin on boards without module.
+</span><span style=color:#75715e></span>  <span style=color:#75715e>#define POWER_LOSS_STATE     HIGH </span><span style=color:#75715e>// State of pin indicating power loss
+</span><span style=color:#75715e></span>  <span style=color:#75715e>//#define POWER_LOSS_PULLUP         // Set pullup / pulldown as appropriate for your sensor
+</span><span style=color:#75715e></span>  <span style=color:#75715e>//#define POWER_LOSS_PULLDOWN
+</span><span style=color:#75715e></span>  <span style=color:#75715e>//#define POWER_LOSS_PURGE_LEN   20 // (mm) Length of filament to purge on resume
+</span><span style=color:#75715e></span>  <span style=color:#75715e>//#define POWER_LOSS_RETRACT_LEN 10 // (mm) Length of filament to retract on fail. Requires backup power.
+</span><span style=color:#75715e></span>  <span style=color:#75715e>#define POWER_LOSS_MIN_Z_CHANGE 0.05 </span><span style=color:#75715e>// (mm) Minimum Z change before saving power-loss data
+</span><span style=color:#75715e></span>
+</code></pre></div><h2 id=power_loss_recovery-e-octoprint>POWER_LOSS_RECOVERY e OctoPrint<a href=#power_loss_recovery-e-octoprint class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<p>Não funciona :/
+Primeira coisa que tentei foi fazer o power loss funcionar junto com meu
+OctoPrint, que está rodando em Pi3.</p>
+<p>O problema maior é o buffer, como a impressão é enviada através da conexão USB
+(console), o GCODE é bufferizado, acaba que perde o sincronismo da impressão e o
+OctoPrint.</p>
+<h2 id=power_loss_recovery-e-sdcard>POWER_LOSS_RECOVERY e SDCard<a href=#power_loss_recovery-e-sdcard class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<p>Funcionou :)
+Fiz um teste com o <a href=https://www.thingiverse.com/thing:1545913>Cali Cat</a>, removi
+o cabo da impressora no meio da impressão e quando voltei o cabo, pude resumir a
+impressão de onde parou.</p>
+<p>O único problema que percebi é que o bico por estar quente na hora da &ldquo;queda de
+energia&rdquo;, ele acabou danificando um pouco a superficie onde parou. No final, não
+deu para perceber pois as outras camadas da impressão acabou tapando o dano.</p>
+<h2 id=conclusão>Conclusão<a href=#conclusão class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<p>Se as quedas de energia forem muuuito comuns por ai e você puder comprar um
+nobreak, é sucesso.</p>
+<p>Mas vale a pena tentar um pouco mais com o <code>POWER_LOSS_RECOVERY</code>.</p>
+</div></div>
+</div>
+</div>
+<footer class=footer>
+<div class=footer__inner>
+<div class=copyright>
+<span>© 2021 Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>:: Theme made by <a href=https://twitter.com/panr>panr</a></span>
+</div>
+</div>
+</footer>
+<script src=/assets/main.js></script>
+<script src=/assets/prism.js></script>
+</div>
+</body>
+</html>

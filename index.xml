@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terminal</title><link>/</link><description>Recent content on Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>impressao3d</title><link>/impressao3d/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/impressao3d/</guid><description>thingiverse</description><content>&lt;h2 id="thingiverse">thingiverse&lt;/h2></content></item><item><title>meliponicultura</title><link>/meliponicultura/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/meliponicultura/</guid><description/><content/></item><item><title>sobre</title><link>/sobre/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/sobre/</guid><description>Saudações Este é um blog pessoal, onde pretendo postar algumas coisas de tecnologia, de plantas, de abelhas e tudo mais&amp;hellip;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>42</title><link>/</link><description>Recent content on 42</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Queda_de_energia</title><link>/queda_de_energia/</link><pubDate>Thu, 19 Aug 2021 15:24:41 -0300</pubDate><guid>/queda_de_energia/</guid><description>..---.. / \ | | : ; \ \~/ / `, Y ,' |_|_| |===| |===| \_/ Impressão 3d e a falta de energia Mesmo morando na capital de São Paulo, as quedas de energia por aqui são constante, isso muito antes de estourar a crise hídrica (2021 aqui).
+Perdi muitas impressões e a primeira coisa que pensei em compra, foi um nobreak. Fiz uma lista de modelos recomendados, e os mais recomendados para impressoras 3d em minhas pesquisas, são os modelos senoidal puro.</description><content>&lt;pre>&lt;code class="language-img" data-lang="img"> ..---..
+/ \
+| |
+: ;
+\ \~/ /
+`, Y ,'
+|_|_|
+|===|
+|===|
+\_/
+&lt;/code>&lt;/pre>&lt;h2 id="impressão-3d-e-a-falta-de-energia">Impressão 3d e a falta de energia&lt;/h2>
+&lt;p>Mesmo morando na capital de São Paulo, as quedas de energia por aqui são
+constante, isso muito antes de estourar a crise hídrica (2021 aqui).&lt;/p>
+&lt;p>Perdi muitas impressões e a primeira coisa que pensei em compra, foi um nobreak.
+Fiz uma lista de modelos recomendados, e os mais recomendados para impressoras
+3d em minhas pesquisas, são os modelos senoidal puro.&lt;/p>
+&lt;p>O preço me assustou, modelos SMS saem por uns R$1200,00 e então desisti por hora
+e tentei usar a função &lt;code>POWER_LOSS_RECOVERY&lt;/code> no Marlin &lt;code>2.0.x&lt;/code>.&lt;/p>
+&lt;h2 id="configuration_advh">Configuration_adv.h&lt;/h2>
+&lt;p>O código que usei na minha ender3 v1 com um SKR Mini v2.0 + bltouch, foi esse
+aqui:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-c" data-lang="c"> &lt;span style="color:#75715e">#define POWER_LOSS_RECOVERY
+&lt;/span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">#if ENABLED(POWER_LOSS_RECOVERY)
+&lt;/span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">#define PLR_ENABLED_DEFAULT true &lt;/span>&lt;span style="color:#75715e">// Power Loss Recovery enabled by default. (Set with &amp;#39;M413 Sn&amp;#39; &amp;amp; M500)
+&lt;/span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">//#define BACKUP_POWER_SUPPLY // Backup power / UPS to move the steppers on power loss
+&lt;/span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">#define POWER_LOSS_ZRAISE 2 &lt;/span>&lt;span style="color:#75715e">// (mm) Z axis raise on resume (on power loss with UPS)
+&lt;/span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">#define POWER_LOSS_PIN -1 &lt;/span>&lt;span style="color:#75715e">// Pin to detect power loss. Set to -1 to disable default pin on boards without module.
+&lt;/span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">#define POWER_LOSS_STATE HIGH &lt;/span>&lt;span style="color:#75715e">// State of pin indicating power loss
+&lt;/span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">//#define POWER_LOSS_PULLUP // Set pullup / pulldown as appropriate for your sensor
+&lt;/span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">//#define POWER_LOSS_PULLDOWN
+&lt;/span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">//#define POWER_LOSS_PURGE_LEN 20 // (mm) Length of filament to purge on resume
+&lt;/span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">//#define POWER_LOSS_RETRACT_LEN 10 // (mm) Length of filament to retract on fail. Requires backup power.
+&lt;/span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">#define POWER_LOSS_MIN_Z_CHANGE 0.05 &lt;/span>&lt;span style="color:#75715e">// (mm) Minimum Z change before saving power-loss data
+&lt;/span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="power_loss_recovery-e-octoprint">POWER_LOSS_RECOVERY e OctoPrint&lt;/h2>
+&lt;p>Não funciona :/
+Primeira coisa que tentei foi fazer o power loss funcionar junto com meu
+OctoPrint, que está rodando em Pi3.&lt;/p>
+&lt;p>O problema maior é o buffer, como a impressão é enviada através da conexão USB
+(console), o GCODE é bufferizado, acaba que perde o sincronismo da impressão e o
+OctoPrint.&lt;/p>
+&lt;h2 id="power_loss_recovery-e-sdcard">POWER_LOSS_RECOVERY e SDCard&lt;/h2>
+&lt;p>Funcionou :)
+Fiz um teste com o &lt;a href="https://www.thingiverse.com/thing:1545913">Cali Cat&lt;/a>, removi
+o cabo da impressora no meio da impressão e quando voltei o cabo, pude resumir a
+impressão de onde parou.&lt;/p>
+&lt;p>O único problema que percebi é que o bico por estar quente na hora da &amp;ldquo;queda de
+energia&amp;rdquo;, ele acabou danificando um pouco a superficie onde parou. No final, não
+deu para perceber pois as outras camadas da impressão acabou tapando o dano.&lt;/p>
+&lt;h2 id="conclusão">Conclusão&lt;/h2>
+&lt;p>Se as quedas de energia forem muuuito comuns por ai e você puder comprar um
+nobreak, é sucesso.&lt;/p>
+&lt;p>Mas vale a pena tentar um pouco mais com o &lt;code>POWER_LOSS_RECOVERY&lt;/code>.&lt;/p></content></item><item><title>impressao3d</title><link>/impressao3d/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/impressao3d/</guid><description>thingiverse</description><content>&lt;h2 id="thingiverse">thingiverse&lt;/h2></content></item><item><title>meliponicultura</title><link>/meliponicultura/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/meliponicultura/</guid><description/><content/></item><item><title>sobre</title><link>/sobre/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/sobre/</guid><description>Saudações Este é um blog pessoal, onde pretendo postar algumas coisas de tecnologia, de plantas, de abelhas e tudo mais&amp;hellip;
 Quem sou eu? Trabalho com SRE/DevOps, gosto muito do universo opensource então gosto muito de linux, RaspberryPI, terminal. Eu sei, é bem cliche :/.
 Sobre meus hobbies, gosto muito de impressão 3d. Atualmente tenho uma ender3 v1 bem modificada, vou postar sobre aqui.
 Um outro hobbie que tenho é ser um beekeeper, mais especificamente meliponicultor, mas não faço extração de mel ou qualquer coisa do tipo, sou um simples cuidador de Mandaçaia e Plebeia.</description><content>&lt;h2 id="saudações">Saudações&lt;/h2>
