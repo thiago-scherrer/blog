@@ -4,19 +4,6 @@ date: 2021-08-19T15:24:41-03:00
 draft: false
 ---
 
-```img
-  ..---..
- /       \
-|         |
-:         ;
- \  \~/  /
-  `, Y ,'
-   |_|_|
-   |===|
-   |===|
-    \_/
-```
-
 ## Impressão 3d e a falta de energia
 
 Mesmo morando na capital de São Paulo, as quedas de energia por aqui são
