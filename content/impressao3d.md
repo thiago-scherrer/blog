@@ -7,4 +7,5 @@ draft: false
 
 ## thingiverse
 
+- [cuidado_com_iot](/posts/cuidado_com_iot/)
 - [queda_de_energia](/posts/queda_de_energia/)
