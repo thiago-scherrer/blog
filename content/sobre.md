@@ -11,9 +11,8 @@ Este é um blog pessoal, onde pretendo postar algumas coisas de
 
 ## Quem sou eu?
 
-Trabalho com SRE/DevOps, gosto muito do universo opensource
-então gosto muito de linux, RaspberryPI,
- terminal. Eu sei, é bem cliche :/.
+Trabalho com SRE/DevOps, e o universo opensource é bem importante para mim
+então muito de linux, RaspberryPI, terminal. Eu sei, é bem cliche :/.
 
 Sobre meus hobbies, gosto muito de impressão 3d.
 Atualmente tenho uma ender3 v1 bem modificada,
