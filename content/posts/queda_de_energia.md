@@ -39,9 +39,9 @@ aqui:
 
 ## POWER_LOSS_RECOVERY e OctoPrint
 
-Não funciona :/ 
+Não funciona :/
 Primeira coisa que tentei foi fazer o power loss funcionar junto com meu
-OctoPrint, que está rodando em Pi3. 
+OctoPrint, que está rodando em Pi3.
 
 O problema maior é o buffer, como a impressão é enviada através da conexão USB
 (console), o GCODE é bufferizado, acaba que perde o sincronismo da impressão e o
@@ -50,17 +50,21 @@ OctoPrint.
 ## POWER_LOSS_RECOVERY e SDCard
 
 Funcionou :)
+
 Fiz um teste com o [Cali Cat](https://www.thingiverse.com/thing:1545913), removi
-o cabo da impressora no meio da impressão e quando voltei o cabo, pude resumir a 
+o cabo da impressora no meio da impressão e quando voltei o cabo, pude resumir a
 impressão de onde parou.
 
 O único problema que percebi é que o bico por estar quente na hora da "queda de
 energia", ele acabou danificando um pouco a superficie onde parou. No final, não
 deu para perceber pois as outras camadas da impressão acabou tapando o dano.
 
+Vale lembrar que a função faz com que o GCODE seja escrito constantemente no
+SDCard, ou seja, é bem possível que a vida dele acabe antes do que você imagina.
+
 ## Conclusão
 
-Se as quedas de energia forem muuuito comuns por ai e você puder comprar um 
+Se as quedas de energia forem muuuito comuns por ai e você puder comprar um
 nobreak, é sucesso.
 
 Mas vale a pena tentar um pouco mais com o `POWER_LOSS_RECOVERY`.
