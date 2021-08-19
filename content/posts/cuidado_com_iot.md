@@ -40,6 +40,8 @@ Sabemos que é possível controlar qualquer coisa da impressora via console,
 GCODE, etc. Então ativando o modo paranoico aqui, é possível fazer sua
 impressora literalmente pegar fogo e com isso, quem sabe, uma casa.
 
+E não é ficção científica, aconteceu com uma [ANET8](https://www.reddit.com/r/3Dprinting/comments/8ah96r/anet_a8_burns_down_half_the_house/).
+
 Imagine forçar o `extruter` ativar o aquecimento para algo em 240C e então
 desligar todas as ventilações, por sei lá, HORAS? Caótico!
 
