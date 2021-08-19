@@ -17,7 +17,7 @@ TSD is not secure I randomly connected sorry had to inform u
 
 Traduzindo:
 ```
-TSD não é seguro Eu conectei aleatoriamente desculpe tive que informar u
+TSD não é seguro Eu conectei aleatoriamente desculpe tive que informar você
 ```
 
 Vou partir do princípio que o post é verdade. Este TSD provavelmente é um plugin
