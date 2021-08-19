@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 42</title><link>/posts/</link><description>Recent content in Posts on 42</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Aug 2021 15:24:41 -0300</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Queda_de_energia</title><link>/posts/queda_de_energia/</link><pubDate>Thu, 19 Aug 2021 15:24:41 -0300</pubDate><guid>/posts/queda_de_energia/</guid><description>Impressão 3d e a falta de energia Mesmo morando na capital de São Paulo, as quedas de energia por aqui são constante, isso muito antes de estourar a crise hídrica (2021 aqui).
-Perdi muitas impressões e a primeira coisa que pensei em compra, foi um nobreak. Fiz uma lista de modelos recomendados, e os mais recomendados para impressoras 3d em minhas pesquisas, são os modelos senoidal puro.
+Perdi muitas impressões e a primeira coisa que pensei em comprar foi um nobreak. Fiz uma lista de modelos e os mais recomendados para impressoras 3d em minhas pesquisas são modelos senoidal puro.
 O preço me assustou, modelos SMS saem por uns R$1200,00 e então desisti por hora e tentei usar a função POWER_LOSS_RECOVERY no Marlin 2.</description><content>&lt;h2 id="impressão-3d-e-a-falta-de-energia">Impressão 3d e a falta de energia&lt;/h2>
 &lt;p>Mesmo morando na capital de São Paulo, as quedas de energia por aqui são
 constante, isso muito antes de estourar a crise hídrica (2021 aqui).&lt;/p>
-&lt;p>Perdi muitas impressões e a primeira coisa que pensei em compra, foi um nobreak.
-Fiz uma lista de modelos recomendados, e os mais recomendados para impressoras
-3d em minhas pesquisas, são os modelos senoidal puro.&lt;/p>
+&lt;p>Perdi muitas impressões e a primeira coisa que pensei em comprar foi um nobreak.
+Fiz uma lista de modelos e os mais recomendados para impressoras
+3d em minhas pesquisas são modelos senoidal puro.&lt;/p>
 &lt;p>O preço me assustou, modelos SMS saem por uns R$1200,00 e então desisti por hora
 e tentei usar a função &lt;code>POWER_LOSS_RECOVERY&lt;/code> no Marlin &lt;code>2.0.x&lt;/code>.&lt;/p>
 &lt;h2 id="configuration_advh">Configuration_adv.h&lt;/h2>
