@@ -28,8 +28,9 @@ paginate = 5
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = true
+  #showLastUpdated = true
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+
   # updatedDatePrefix = "Updated"
 
   # set all headings to their default size (depending on browser settings)
@@ -51,13 +52,13 @@ paginate = 5
     owner = ""
     keywords = ""
     copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+    menuMore = "Mostrar mais"
+    readMore = "Continuar lendo"
+    readOtherPosts = "Ler outros posts"
+    newerPosts = "Posts novos"
+    olderPosts = "Posts antigos"
+    missingContentMessage = "Página não encontrada..."
+    missingBackButtonLabel = "Voltar para a home"
 
     [languages.en.params.logo]
       logoText = "Home"
@@ -68,14 +69,17 @@ paginate = 5
         identifier = "tec"
         name = "tec"
         url = "/tec"
+
       [[languages.en.menu.main]]
         identifier = "impressao3d"
         name = "impressao3d"
         url = "/impressao3d"
+
       [[languages.en.menu.main]]
         identifier = "sobre"
         name = "sobre"
         url = "/sobre"
+
       [[languages.en.menu.main]]
         identifier = "meliponicultura"
         name = "meliponicultura"
