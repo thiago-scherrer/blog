@@ -47,7 +47,7 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "42"
-    subtitle = "A simple, retro theme for Hugo"
+    subtitle = ""
     owner = ""
     keywords = ""
     copyright = ""
@@ -60,7 +60,7 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "Home"
       logoHomeLink = "/"
 
     [languages.en.menu]
