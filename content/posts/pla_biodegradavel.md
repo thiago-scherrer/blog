@@ -1,7 +1,7 @@
 ---
 title: "Pla_biodegradavel"
 date: 2021-08-20T08:32:11-03:00
-draft: true
+draft: false
 ---
 
 ## Precisamos falar sobre o PLA
