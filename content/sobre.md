@@ -23,6 +23,11 @@ mais especificamente [meliponicultor](https://pt.wikipedia.org/wiki/Meliponicult
 mas não faço extração de mel ou qualquer coisa do tipo, sou um simples cuidador de
 [Mandaçaia](https://pt.wikipedia.org/wiki/Melipona_quadrifasciata) e [Plebeia](https://pt.wikipedia.org/wiki/Plebeia_droryana).
 
+
+## Contatos
+
+- Email => ![email](https://raw.githubusercontent.com/thiago-scherrer/thiago-scherrer/main/email.png)
+
 ## Alguns links
 
 - [github](https://github.com/thiago-scherrer)
