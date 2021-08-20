@@ -20,16 +20,16 @@ Me encantou muito esse ponto do biodegradável e eu preciso testar isso.
 Do lado da minha cozinha, tenho uma composteira domestica, exatamente este
 modelo [aqui](https://produto.mercadolivre.com.br/MLB-1435198942-composteira-domestica-15-litros-minhocas-humus-e-serragem-_JM?searchVariation=50611919726#searchVariation=50611919726&position=5&search_layout=grid&type=item&tracking_id=3b80241b-5658-49c4-b6a5-65504b1ad48f),
 inclusive acho que comprei deste mesmo vendedor.
-É muito interessante, funciona bem para quem tem até 3 pessoas. De tempos
-em tempos, eu coleto chorume para as minhas plantas e com o húmus, eu consigo
-utilizar nos vasos, substituindo o material orgânico antigo.
+É muito interessante, funciona bem para quem tem até 3 pessoas, não tem mau
+cheiro. De tempos em tempos, eu coleto chorume para as minhas plantas e com o 
+húmus, eu consigo utilizar nos vasos, substituindo o material orgânico antigo.
 
 Voltando ao PLA, peguei alguns pedaços que sobraram ou quebraram de algumas
 impressões minhas de 3 cores: branca, preto e amarelo, e com isso, depositei
 nas caixas de compostagem.
 
 Só lembrando, a minha composteira está bem desenvolvida e saudável, já possui 
-alguns fungos,pequenos insetos e muita minhoca californiana.
+alguns fungos, pequenos insetos e muita minhoca californiana.
 
 ## Resultado
 
