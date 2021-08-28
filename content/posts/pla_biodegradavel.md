@@ -38,12 +38,12 @@ acontecido. Pasmem, o material estava em perfeito estado, apenas sujo com o
 húmus, foi só lavar o plástico que lá estava ele em perfeito estado.
 
 Não foi culpa das trabalhadoras minhocas e outros organismos, elas deram conta 
-das cascas de ovos,folhas, bananas, restos de comida, etc. Elas trabalham muito.
+das cascas de ovos, folhas, bananas, restos de comida, etc. Elas trabalham muito.
 
 ## Frustração
 
 Descobri que não fui o único que fiz este teste, inclusive tem algumas pessoas
-que fizeram alguns testes mais elaborados, colocando no jardim, em vasos, no
+que fizeram alguns testes mais elaborados colocando no jardim, em vasos, no
 meio ambiente e o resultado foi o mesmo, nada acontece.
 
 O que se sabe é que o PLA na verdade é degradável e não biodegradável e a melhor
