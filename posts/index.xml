@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 42</title><link>/posts/</link><description>Recent content in Posts on 42</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 20 Aug 2021 08:32:11 -0300</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Pla_biodegradavel</title><link>/posts/pla_biodegradavel/</link><pubDate>Fri, 20 Aug 2021 08:32:11 -0300</pubDate><guid>/posts/pla_biodegradavel/</guid><description>Precisamos falar sobre o PLA O PLA é um material muito usado na impressão 3d. É o meu favorito.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 42</title><link>/posts/</link><description>Recent content in Posts on 42</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Sep 2021 08:17:32 -0300</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Uma_rede_local_mais_segura_parte1</title><link>/posts/uma_rede_local_mais_segura_parte1/</link><pubDate>Tue, 07 Sep 2021 08:17:32 -0300</pubDate><guid>/posts/uma_rede_local_mais_segura_parte1/</guid><description>Sempre fui muito ligado em assuntos relacionados em privacidade e segurança. Talvez depois de ter ido em algumas cryptorave eu tenha começado a olhar o que era até então pra mim um de meus milhares hobbies, como algo mais sério.
+Com a chegada do home office em minha vida, pude olhar com um pouco mais com carinho para a minha rede local.
+DNS No geral, as pessoas costumam usar o DNS que já vem configurado no roteador entregue pela operadora de LINK.</description><content>&lt;p>Sempre fui muito ligado em assuntos relacionados em privacidade e segurança.
+Talvez depois de ter ido em algumas &lt;a href="https://cryptorave.org/">cryptorave&lt;/a> eu
+tenha começado a olhar o que era até então pra mim um de meus milhares hobbies,
+como algo mais sério.&lt;/p>
+&lt;p>Com a chegada do home office em minha vida, pude olhar com um pouco mais com
+carinho para a minha rede local.&lt;/p>
+&lt;h2 id="dns">DNS&lt;/h2>
+&lt;p>No geral, as pessoas costumam usar o DNS que já vem configurado no roteador
+entregue pela operadora de LINK. O ponto positivo disso é que o cliente acaba
+sendo beneficiado com melhores rotas e melhores PoPs das CDNs.&lt;/p>
+&lt;p>Já os pontos negativos e generalizando aqui, os DNSs das operadoras são muito instáveis,
+me fazendo mostrar &lt;a href="https://super.abril.com.br/blog/bruno-garattoni/o-que-provocou-o-apagao-da-internet/">esse caso aqui de 2008&lt;/a>. Fazendo justiça, a estabilidade melhorou bastante desde este último apagão
+da internet em 2008.&lt;/p>
+&lt;p>Outro ponto negativo de se usar o DNS da operadora e este ponto aqui questiona
+até mesmo o positivo do início, já que mostra a fragilidade da privacidade, já que
+utilizando estes DNSs, a gente corre o risco de cair em filtro
+&lt;a href="https://tecnoblog.net/461579/claro-oi-tim-e-vivo-bloqueiam-the-pirate-bay-no-brasil-apos-operacao-404/">como este aqui&lt;/a> que tirou o piratebay do ar aqui no BR. Outra questão neste mesmo tópico,
+é que no geral as operadoras não ativam o suporte ao &lt;a href="https://registro.br/tecnologia/dnssec/dns-e-dnssec/por-que-utilizar/">DNSSEC&lt;/a>.&lt;/p>
+&lt;p>Então olhando para esses pontos resolvi colocar um Raspberry pi zero para ficar
+responsável pelo DNS local da minha rede.
+O Raspberry zero deve ser o mais barato da linha, com 512MiB de ram e um ARM11
+de 1GHz, deu conta do recado. Após instalar o &lt;a href="https://www.raspberrypi.org/software/operating-systems/">raspibian&lt;/a> nele, configurei um [Unbound](&lt;a href="https://en.wikipedia.org/wiki/Unbound_(DNS_server)">https://en.wikipedia.org/wiki/Unbound_(DNS_server)&lt;/a>
+para ser usado como DNS recursivo.&lt;/p>
+&lt;p>No unbound, não modifiquei muito as suas configurações, só ativei o suporte a IPv6,
+fixei quais redes estavam liberadas para consulta-lo, ativei o suporte ao DDNS
+e adicionei quais servidores de DNS ele iria consultar. No começo eu usei os
+&lt;a href="https://en.wikipedia.org/wiki/Root_name_server">root servers&lt;/a>, porém com um
+número crescente de ataques de phishing, abri mão um pouco da privacidade e
+adicionei os DNSs gratuitos com &lt;a href="https://blog.cloudflare.com/introducing-1-1-1-1-for-families/">bloqueio de Malware da cloudflare&lt;/a>.&lt;/p>
+&lt;p>Com um DNS configurado e com o incentivo de um amigo do trampo (vlw luiz!)
+decidi colocar o &lt;a href="https://pi-hole.net/">pihole&lt;/a> no pi zero. O pihole é um
+software opensource que oferece um monte de recursos diretamente para a sua
+rede como por exemplo bloqueio de tracking e ads, monitoramento da rede e
+otimização e performance. Ele faz isso com base uma lista de URLs e regex que
+você pode gerar ou pegar alguma lista da comunidade, tem milhares, inclusive,
+fiz &lt;a href="https://github.com/thiago-scherrer/go-pihole">esse projeto aqui&lt;/a> para gerar
+e atualizar todo dia a minha lista de &lt;a href="https://github.com/thiago-scherrer/pi-hole-block-list">bloqueio que jogo aqui&lt;/a>.&lt;/p>
+&lt;p>Depois de tudo pronto com meu pizero, coloquei ele como único dns em DHCP/Roteador da minha rede.
+E pronto, a mágica começou. No começo, deu um pouco de trabalho para ir liberando as páginas que estavam bloqueadas
+(obrigado esposa pela paciência haha).
+Mas isso foi culpa minha, com a lista que eu gerei, muita coisa foi bloqueada então foi um trabalho de formiguinha no começo.&lt;/p>
+&lt;p>Em meus testes, parando de usar os DNSs do meu provedor e usando o meu pi
+zero com unbound e pihole, a velocidade de lookup aumentou em mais de 70%! O
+tráfego total bloqueado pelo pihole até agora foi de 11.5%, o que além de trazer
+segurança, impacta do consumo de banda da minha internet.&lt;/p>
+&lt;p>O pizero não tem ethernet, ou seja, utiliza o wireless para comunicação, mas
+mesmo assim, atendeu minhas expectativas.&lt;/p></content></item><item><title>Pla_biodegradavel</title><link>/posts/pla_biodegradavel/</link><pubDate>Fri, 20 Aug 2021 08:32:11 -0300</pubDate><guid>/posts/pla_biodegradavel/</guid><description>Precisamos falar sobre o PLA O PLA é um material muito usado na impressão 3d. É o meu favorito.
 É muito fácil de trabalhar, é mais barato, gruda bem na mesa sem muitos problemas e o principal para mim, é geralmente feito de materiais orgânicos, sendo assim é melhor para reciclar e é biodegradável.
 Me encantou muito esse ponto do biodegradável e eu preciso testar isso.
 Teste Do lado da minha cozinha, tenho uma composteira domestica, exatamente este modelo aqui, inclusive acho que comprei deste mesmo vendedor.</description><content>&lt;h2 id="precisamos-falar-sobre-o-pla">Precisamos falar sobre o PLA&lt;/h2>
@@ -47,9 +95,9 @@ TSD não é seguro Eu conectei aleatoriamente desculpe tive que informar você V
 &lt;p>Estava navegando pelo reddit hoje e vi &lt;a href="https://www.reddit.com/r/3Dprinting/comments/p7jdhi/wake_up_this_morning_and_see_this_on_my_3d/">este post bizarro aqui&lt;/a>.&lt;/p>
 &lt;p>Resumindo bem o post, o OP acordou de manha e percebeu que sua impressora 3d
 tinha imprimido isto aqui:&lt;/p>
-&lt;pre>&lt;code>TSD is not secure I randomly connected sorry had to inform u
+&lt;pre tabindex="0">&lt;code>TSD is not secure I randomly connected sorry had to inform u
 &lt;/code>&lt;/pre>&lt;p>Traduzindo:&lt;/p>
-&lt;pre>&lt;code>TSD não é seguro Eu conectei aleatoriamente desculpe tive que informar você
+&lt;pre tabindex="0">&lt;code>TSD não é seguro Eu conectei aleatoriamente desculpe tive que informar você
 &lt;/code>&lt;/pre>&lt;p>Vou partir do princípio que o post é verdade. Este TSD provavelmente é um plugin
 muito usado pela comunidade chamado &lt;a href="https://www.thespaghettidetective.com/">thespaghettidetective&lt;/a>.
 Basicamente é um software que é conectado em uma camera/celular, pode ser
