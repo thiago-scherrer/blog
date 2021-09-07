@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>42</title><link>/</link><description>Recent content on 42</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Sep 2021 08:17:32 -0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Uma_rede_local_mais_segura_parte1</title><link>/posts/uma_rede_local_mais_segura_parte1/</link><pubDate>Tue, 07 Sep 2021 08:17:32 -0300</pubDate><guid>/posts/uma_rede_local_mais_segura_parte1/</guid><description>Sempre fui muito ligado em assuntos relacionados em privacidade e segurança. Talvez depois de ter ido em algumas cryptorave eu tenha começado a olhar o que era até então pra mim um de meus milhares hobbies, como algo mais sério.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>42</title><link>/</link><description>Recent content on 42</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Sep 2021 08:17:32 -0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Tec</title><link>/tec/</link><pubDate>Tue, 07 Sep 2021 08:17:32 -0300</pubDate><guid>/tec/</guid><description>Posts uma_rede_local_mais_segura_parte1</description><content>&lt;h2 id="posts">Posts&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="/posts/uma_rede_local_mais_segura_parte1/">uma_rede_local_mais_segura_parte1&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Uma_rede_local_mais_segura_parte1</title><link>/posts/uma_rede_local_mais_segura_parte1/</link><pubDate>Tue, 07 Sep 2021 08:17:32 -0300</pubDate><guid>/posts/uma_rede_local_mais_segura_parte1/</guid><description>Sempre fui muito ligado em assuntos relacionados em privacidade e segurança. Talvez depois de ter ido em algumas cryptorave eu tenha começado a olhar o que era até então pra mim um de meus milhares hobbies, como algo mais sério.
 Com a chegada do home office em minha vida, pude olhar com um pouco mais com carinho para a minha rede local.
 DNS No geral, as pessoas costumam usar o DNS que já vem configurado no roteador entregue pela operadora de LINK.</description><content>&lt;p>Sempre fui muito ligado em assuntos relacionados em privacidade e segurança.
 Talvez depois de ter ido em algumas &lt;a href="https://cryptorave.org/">cryptorave&lt;/a> eu
@@ -194,7 +197,4 @@ mas não faço extração de mel ou qualquer coisa do tipo, sou um simples cuida
 &lt;li>&lt;a href="https://github.com/thiago-scherrer">github&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.linkedin.com/in/thiago-scherrer/">linkedin&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.thingiverse.com/sofdg3/designs">thingiverse&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Tec</title><link>/tec/</link><pubDate>Wed, 18 Aug 2021 16:02:59 -0300</pubDate><guid>/tec/</guid><description>Posts uma_rede_local_mais_segura_parte1</description><content>&lt;h2 id="posts">Posts&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="/posts/uma_rede_local_mais_segura_parte1/">uma_rede_local_mais_segura_parte1&lt;/a>&lt;/li>
 &lt;/ul></content></item></channel></rss>
