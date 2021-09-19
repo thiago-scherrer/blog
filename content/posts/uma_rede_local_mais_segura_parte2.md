@@ -106,4 +106,4 @@ Para melhorar a segurança deste aparelho que fica comigo, eu não tenho reset d
 senha de nenhuma coisa que possa me causar danos financeiros via SMS.
 
 
-Não é ruim, não é bom, é que tenho
+> Não é ruim, não é bom, é que tenho
