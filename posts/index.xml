@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 42</title><link>/posts/</link><description>Recent content in Posts on 42</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Sep 2021 08:17:32 -0300</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Uma_rede_local_mais_segura_parte1</title><link>/posts/uma_rede_local_mais_segura_parte1/</link><pubDate>Tue, 07 Sep 2021 08:17:32 -0300</pubDate><guid>/posts/uma_rede_local_mais_segura_parte1/</guid><description>Sempre fui muito ligado em assuntos relacionados em privacidade e segurança. Talvez depois de ter ido em algumas cryptorave eu tenha começado a olhar o que era até então pra mim um de meus milhares hobbies, como algo mais sério.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 42</title><link>/posts/</link><description>Recent content in Posts on 42</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 19 Sep 2021 06:58:07 -0300</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Uma_rede_local_mais_segura_parte2</title><link>/posts/uma_rede_local_mais_segura_parte2/</link><pubDate>Sun, 19 Sep 2021 06:58:07 -0300</pubDate><guid>/posts/uma_rede_local_mais_segura_parte2/</guid><description>Continuando a linha de post sobre ter uma rede local mais segura, esse post aqui foge um pouco do escopo de rede local, pois acaba indo com você em todos os lugares.
+Já sabemos que o celular é mais do que um meio de comunicação, hoje ele é o nosso banco, computador e até mesmo documento de identificação ou vacinação.
+Obs.: Neste post, vou falar somente sobre o Android, que é o único aparelho que tive/tenho.</description><content>&lt;p>Continuando a linha de post sobre ter uma rede local mais segura, esse post aqui
+foge um pouco do escopo de rede local, pois acaba indo com você em todos os
+lugares.&lt;/p>
+&lt;p>Já sabemos que o celular é mais do que um meio de comunicação, hoje ele é o
+nosso banco, computador e até mesmo documento de identificação ou vacinação.&lt;/p>
+&lt;p>Obs.: Neste post, vou falar somente sobre o &lt;a href="https://en.wikipedia.org/wiki/Android_(operating_system)">Android&lt;/a>,
+que é o único aparelho que tive/tenho.&lt;/p>
+&lt;h2 id="lineageos">LineageOS&lt;/h2>
+&lt;p>&lt;a href="https://lineageos.org/">LineageOS&lt;/a> é um sistema operacional baseado no Android,
+é &lt;a href="https://en.wikipedia.org/wiki/Open_source">open source&lt;/a> e suporta muitos aparelhos. Ele já foi no passado o CyanogenMod.&lt;/p>
+&lt;p>Além de ser open source,
+outra vantagem dele é que você consegue atualizar mais
+rapidamente do que as imagens STOCK disponibilizadas pela empresa do celular.
+Por exemplo, meu atual celular é um modelo de 2015 e não mais recebe
+atualizações, mas com o lineageOS, eu consigo atualizar esse meu aparelho
+constantemente utilizando as versões night através da comunidade.&lt;/p>
+&lt;p>Outra vantagem aqui é que você consegue customizar e remover todos os softwares
+pré instalados pela empresa do celular, que geralmente já vem com centenas de
+softwares questionáveis quanto a privacidade e segurança. É possível até mesmo
+instalar versões do Google Apps minimalistas, sem todos os softwares já
+disponibilizados pelo Google.&lt;/p>
+&lt;p>E para aqueles que querem ter um celular mais privativo ainda, é possível nem
+instalar o Google Apps e utilizar uma opção que só contém softwares
+&lt;a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">FOSS&lt;/a> em seu
+catálogo, o &lt;a href="https://f-droid.org">F-DROID&lt;/a>.&lt;/p>
+&lt;h2 id="ter-um-banco-no-bolso-é-legal-mas-">Ter um banco no bolso é legal, mas &amp;hellip;&lt;/h2>
+&lt;p>&lt;img src="https://upload.wikimedia.org/wikipedia/en/e/e9/Brazil_%281985_film%29_poster.jpg" alt="Brazil">&lt;/p>
+&lt;p>O sistema bancário do Brasil convenhamos, é muito moderno. Temos várias
+&lt;a href="https://en.wikipedia.org/wiki/Financial_technology">fintechs&lt;/a> nascendo, várias
+tecnologias empoderando financeiramente pessoas que estiveram na marginalização
+da sociedade, até mesmo o PIX criado pelo BC é muito bom!&lt;/p>
+&lt;p>Porém com toda essa desigualdade que existe no
+&lt;a href="https://www.uol.com.br/ecoa/ultimas-noticias/2020/02/20/por-que-brasil-e-o-setimo-pais-mais-desigual-do-mundo.htm">Brasil&lt;/a>,
+somada com uma rápida pulverização tecnológica, é um cenário perfeito para um
+ambiente cyberpunk. Inclusive um dos criadores do RPG de mesa &lt;a href="https://en.wikipedia.org/wiki/Cyberpunk_(role-playing_game)">Cyberpunk2020&lt;/a>
+&lt;a href="https://www.reddit.com/r/cyberpunkgame/comments/aw4ac7/countdown_to_the_dark_future_365_days_of/">disse em um post no reddit que o Brasil é o lugar mais cyberpunk que ele já
+viu&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;p>Amei Rio e SP. Tenho muitos amigos em ambas as cidades, mas isso não me blinda
+do fato de que são lugares perigosos. Me lembro da última vez em que estive no
+Rio, liguei a TV no noticiário local e vi que as gangues da favela estavam
+lutando contra a polícia militar com lança-foguetes. Não dá para ficar mais
+cyberpunk do que isso&lt;/p>
+&lt;/blockquote>
+&lt;p>É praticamente um cenário do filme &lt;a href="https://en.wikipedia.org/wiki/Brazil_(1985_film)">Brasil&lt;/a>
+ou se tivesse droids, &lt;a href="https://en.wikipedia.org/wiki/Blade_Runner">Blade
+Runner&lt;/a>.&lt;/p>
+&lt;p>E como muitos brasileiros, já fui assaltado e até mesmo agredido :S,
+mas passo bem obrigado.&lt;/p>
+&lt;p>Não somente por causa da violência, eu já tentei ficar sem um celulares moderno,
+mas não deu muito certo, essa experiência vale outro post em
+outro momento, tive que voltar para o smartphone. Então em minha paranoia
+diária, decidi não ter um celular muito caro, não sou muito ligado em jogos de
+celular só faço o básico mesmo, um aparelho que suporta-se o lineageOS e que
+tivesse 2 Gib de RAM já seria suficiente para mim.&lt;/p>
+&lt;p>Paralelamente, com o &lt;a href="https://en.wikipedia.org/wiki/Pix_(electronic_payment_system)">PIX&lt;/a>
+o número de sequestros &lt;a href="https://g1.globo.com/jornal-nacional/noticia/2021/08/26/aumentam-casos-em-sp-de-uso-do-pix-para-roubar-vitimas-de-sequestro-relampago.ghtml">explodiram&lt;/a>,
+intensificando para minha infelicidade a minha paranoia, decidi abrir mão desta facilidade em meu bolso e criei um
+celular banco, mas que só fica em casa. E aqui é que está o pulo do gato.&lt;/p>
+&lt;p>Com isto todos os aplicativos de bancos, investimentos, compras etc, ficam em
+casa e nunca saem comigo. No celular que eu uso de fato e que me acompanha por
+ai, só instalo o básico e o que preciso para o dia dia na rua, como por exemplo
+aplicativos de mapas, comunicação, email, navegador e afins.&lt;/p>
+&lt;p>Para melhorar a segurança deste aparelho que fica comigo, eu não tenho reset de
+senha de nenhuma coisa que possa me causar danos financeiros via SMS.&lt;/p>
+&lt;p>Não é ruim, não é bom, é que tenho&lt;/p></content></item><item><title>Uma_rede_local_mais_segura_parte1</title><link>/posts/uma_rede_local_mais_segura_parte1/</link><pubDate>Tue, 07 Sep 2021 08:17:32 -0300</pubDate><guid>/posts/uma_rede_local_mais_segura_parte1/</guid><description>Sempre fui muito ligado em assuntos relacionados em privacidade e segurança. Talvez depois de ter ido em algumas cryptorave eu tenha começado a olhar o que era até então pra mim um de meus milhares hobbies, como algo mais sério.
 Com a chegada do home office em minha vida, pude olhar com um pouco mais com carinho para a minha rede local.
 DNS No geral, as pessoas costumam usar o DNS que já vem configurado no roteador entregue pela operadora de LINK.</description><content>&lt;p>Sempre fui muito ligado em assuntos relacionados em privacidade e segurança.
 Talvez depois de ter ido em algumas &lt;a href="https://cryptorave.org/">cryptorave&lt;/a> eu
